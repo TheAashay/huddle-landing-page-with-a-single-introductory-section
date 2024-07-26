@@ -4,4 +4,10 @@
     box-sizing: border-box;
   }
 
-  
+.headline {
+    font-family: 'Poppins', serif, sans-serif;
+}
+
+.description, .button {
+    font-family: 'Open sans', serif, sans-serif;
+}
