@@ -1,13 +1,93 @@
+:root {
+    --background-color: hsl(257, 40%, 49%);
+    --hover-color: hsl(300, 69%, 71%);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-.headline {
-    font-family: 'Poppins', serif, sans-serif;
+body {
+    background-color: var(--background-color);
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    width: 100%;
 }
 
-.description, .button {
+header svg {
+  width: 6.5rem;
+  height: auto;
+  margin: 1.25rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 12%;
+}
+
+.content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Poppins', serif, sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+.description {
     font-family: 'Open sans', serif, sans-serif;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 0 2rem;
+}
+
+.button {
+    color: var(--background-color);
+    background-color: #fff;
+    margin: 1.5rem;
+    font-size: 0.85rem;
+    padding: 0.5rem 3.75rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 0.5rem -0.25rem rgba(0, 0, 0, 1);
+}
+
+h1, .description {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    color: #fff;
+    display: inline-block;
+    margin: 0 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.attribution {
+    font-size: 0.5rem;
 }
