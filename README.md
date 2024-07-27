@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/TheAashay/huddle-landing-page-with-a-single-introductory-section)
-- Live Site URL: [In-progress](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/TheAashay/huddle-landing-page-with-a-single-introductory-section)
+- Live Site URL: [GitHub-pages](https://theaashay.github.io/huddle-landing-page-with-a-single-introductory-section/)
 
 ## My process
 
